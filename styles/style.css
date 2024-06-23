@@ -1,0 +1,492 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: no-repeat url('../assets/cover.png');
+    background-size: 100%;
+}
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 59px;
+    width: 80%;
+    margin: 0 auto;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-div{
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.nav-div p,
+.nav-ul-{
+    margin: 0;
+}
+.nav-ul{
+    display: flex;
+    gap: 2em;
+    font-size: 1rem;
+}
+.nav-ul li {
+    list-style: none;
+    letter-spacing: 1px;
+}
+/* Main First Hero */
+.first-hero{
+    padding: 0 59px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.first-hero-text{
+    margin: 150px 0 0;
+}
+.first-hero-text > h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    width: 90%;
+    font-size: 3.6rem;
+    line-height: 80px;
+    color: #252B42;
+    text-shadow: 0 0 2px black;
+}
+.first-hero-text > h2{
+    margin: 35px 0 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #737373;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    font-size: 1.25rem;
+}
+.first-hero-text > button{
+    padding: 10px 36px;
+    background: #00A0C1;
+    border-radius: 37px;
+    border: 1px solid #00A0C1;
+    color: white;
+    letter-spacing: 0.5px;
+    width: 205px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 35px 20px 100px 0;
+}
+.first-hero-text > .transparent {
+    background: transparent;
+    color: #00A0C1;
+}
+.first-hero-div-form{
+    margin: 50px 0 0;
+    width: 100%;
+}
+.first-hero-form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 328px;
+    background: white;
+    margin: 0 auto;
+}
+.first-hero-form > h3{
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.first-hero-form > .wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 369px;
+    gap: 10px;
+}
+.wrapper > label {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #252B42;
+}
+.wrapper > input,
+.wrapper > select {
+    height: 50px;
+    color: #737373;    
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.first-hero-form > button{
+    background: #FFA62B;
+    height: 58px;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* Second hero */
+.second-hero{
+    padding: 0 53px;
+    width: 80%;
+    margin: 100px auto;
+}
+.second-hero-text {
+    width: 700px;
+    margin: 0 auto;
+}
+.second-hero-text > h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 0 20px;
+}
+.second-hero-text > p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.cards{
+    margin: 40px 0 0;
+    width: 330px;
+    border: 1px solid #A9D6FF;
+    border-radius: 5px;
+    padding: 0 0 16px;
+}
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.card-title{
+    height: 132px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #A9D6FF;
+    font-family: 'Montserrat';
+}
+.card-title > h4{
+    cursor: pointer;
+}
+.cart-title-img{
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.cart-title-img img {
+    width: 30px;
+    height: 30px;
+    object-fit:contain;
+    cursor: pointer;
+}
+.cards > ul {
+    list-style: none;
+}
+.cards > ul > li {
+    padding: 2px 0;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+}
+.cards > ul > li::before {
+    content: "- "
+}
+.cards > a {
+    text-decoration: none;
+    padding: 0 0 16px 40px;
+    color: #FFA62B;
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 0 0 0.2px black;
+}
+/* Third Hero */
+.third-hero{
+    background-color: #FAFAFA;
+}
+.third-hero-content{
+    padding: 0 53px 100px;
+    width: 80%;
+    margin: 100px auto 0;
+}
+.third-hero-content > h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto 20px;
+    padding: 100px 0 0;
+    width: 400px;
+    line-height: 50px;
+    color: #252B42;
+}
+.third-hero-content > p {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+}
+.third-hero-content > video{
+    display: flex;
+    margin: 40px auto 0;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+/* Fourth Hero */
+.fourth-hero {
+    padding: 0 53px 100px;
+    width: 80%;
+    margin: 100px auto;
+}
+.fourth-hero > h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto 20px;
+    width: 400px;
+    line-height: 50px;
+    color: #252B42;
+}
+.fourth-hero > p {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+}
+.fourth-hero > div {
+    margin: 100px 0 0;
+    display: flex;
+    gap: 30px;
+}
+.clients {
+    background: #FAFAFA;
+    padding: 30px 40px;
+    box-shadow: 0 0 5px rgba(3, 1, 1, 0.24);
+    cursor: pointer;
+}
+.clients:hover{
+    background: #252B42;
+    color: white;
+}
+.clients > p {
+    letter-spacing: 0.8px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.clients > .flex {
+    align-items: center;
+    justify-content: left;
+    gap: 4px;
+}
+.clients > .flex > img{
+    cursor: pointer;
+}
+.clients > .flex > div > p {
+    margin: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+.name-style {
+    color: #FFA62B;
+    font-weight: bold;
+    text-shadow: 0 0 0.3px black;
+    letter-spacing: 1px;
+}
+/* Fifth Hero */
+.fifth-hero {
+    background-color: #FAFAFA;
+}
+.fifth-hero-content{
+    padding: 0 53px 100px;
+    width: 80%;
+    margin: 100px auto 0;
+}
+.fifth-hero-content > h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto 20px;
+    padding: 100px 0 0;
+    width: 400px;
+    line-height: 50px;
+    color: #252B42;
+}
+.fifth-hero-content > p{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+}
+.fifth-hero-content > .flex{
+    margin: 100px 0 0;
+    gap: 40px;
+}
+.flex > .team {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
+    text-align: center;
+    display: flex;
+    padding: 0 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    user-select: none;
+
+}
+.flex > .team:hover{
+    background: linear-gradient(45deg, rgb(189, 211, 219), rgba(84, 168, 189, 0.74));
+}
+.team > img{
+    cursor: pointer;
+}
+.team > p {
+    margin: 0;
+    color: #252B42;
+}
+.team > .bold {
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.1rem;
+}
+div > i {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 5px 0;
+    color: #00A6A6;
+}
+/* Sixth Hero */
+.sixth-hero {
+    background: no-repeat url(../assets/cover\ \(4\).png);
+    background-size: 100%;
+}
+.sixth-hero-content{
+    padding: 0 53px 100px;
+    width: 80%;
+    margin: 0 auto ;
+}
+.sixth-hero-content > h3{
+    margin: 0;
+    padding: 70px 0 0;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    padding: 100px 0 0;
+    line-height: 50px;
+    color: #252B42;
+}
+.sixth-hero-content > h4{
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+.sixth-hero-form{
+    margin: 60px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 59%;
+    gap: 20px;
+}
+.sixth-hero-form > input,
+.sixth-hero-form > select {
+    width: 48%;
+    height: 50px;
+    color: #737373;    
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sixth-hero-form > textarea {
+    width: 100%;
+    height: 200px;
+    color: #737373;    
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+.sixth-hero-form > button {
+    margin: 20px 0 0;
+    background: #FFA62B;
+    height: 58px;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* Footer */
+footer{
+    background: #252B42;
+    color: #FFF;
+}
+footer > div > p {
+    margin: 0;
+}
+footer > .flex {
+    padding: 50px 53px 50px;
+    width: 80%;
+    margin: 0 auto ;
+    justify-content: space-between ;
+    border-bottom: 1px solid #BDBDBD;
+}
+footer > .flex > p {
+    font-size: 2rem;
+}
+.info{
+    padding: 50px 53px 50px;
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+}
+.info > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info > ul::before{
+    content:attr(aria-label);
+    font-size:110%;
+    font-weight:bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    width: fit-content
+}
+.info > ul > li {
+    cursor: pointer;
+}
+.rights{
+    background: #16697A;
+    display: flex;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    body{
+        
+    }
+}
