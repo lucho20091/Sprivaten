@@ -484,8 +484,91 @@ footer > .flex > p {
     justify-content: center;
     align-items: center;
 }
-
-@media (max-width: 480px){
+@media (max-width: 1500px){
+    body{
+        background: none;
+    }
+    .first-hero{
+        background: no-repeat url('../assets/cover.png');
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+    }
+    .first-hero-text{
+        margin: 0;
+    }
+    .first-hero-text > h1{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .first-hero-text > button{
+        margin: 20px auto;
+        letter-spacing: 0;
+    }
+    .first-hero-div-form{
+        padding: 0 0 55px;
+    }
+    .second-hero .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+        flex-wrap: wrap;
+    }
+    .third-hero-content > video{
+        width: 100%;
+    }
+    .fifth-hero-content > .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+        flex-wrap: wrap;
+    }
+    .sixth-hero {
+        background: no-repeat url(../assets/cover\ \(4\).png);
+        background-size: cover;
+    }
+    .sixth-hero-content{
+        padding: 0 0 100px;
+    }
+    .sixth-hero-form{
+        max-width: 60%;
+        min-width: 100%;
+    }
+}
+@media (min-width: 1500px){
+    .first-hero-div-form{
+        margin: 100px 0 0;
+    }
+    .first-hero-form{
+        width: 400px;
+        margin: 0 0 0 auto;
+    }
+    .second-hero{
+        margin: 150px auto 100px;
+    }
+}
+@media (min-width: 1600px){
+    .second-hero{
+        margin: 250px auto 100px;
+    }
+}
+@media (min-width: 1800px){
+    .second-hero{
+        margin: 400px auto 100px;
+    }
+    .flex > .cards{
+        justify-content: space-around;
+    }
+    .cards{
+        width: 400px;
+        padding: 0 0 30px;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 800px){
     body{
         background: none;
     }
@@ -625,5 +708,4 @@ footer > .flex > p {
     .info > ul{
         width: 40%;
     }
-
 }
