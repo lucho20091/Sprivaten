@@ -1,3 +1,3 @@
 ### One Page Proyect
 Live [Here](https://sprivaten-css.netlify.app/)
-![image](',/screenshots/sreenshot_1')
+![image]('./screenshots/Screenshot_1.png')
