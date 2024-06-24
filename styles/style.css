@@ -485,8 +485,145 @@ footer > .flex > p {
     align-items: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 480px){
     body{
-        
+        background: none;
     }
+    /* header */
+    nav{
+        width: 100%;
+        justify-content: left;
+        padding: 20px 20px;
+    }
+    .nav-ul{
+        display: none;
+    }
+    /* first hero */
+    .first-hero{
+        background: no-repeat url('../assets/cover.png');
+        background-size: cover;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .first-hero-text{
+        padding: 20px 20px;
+        margin: 0;
+    }
+    .first-hero-text > h1{
+        text-align: center;
+        line-height: 1.7em;
+        font-size: 2.2rem;
+    }
+    .first-hero-text > h2{
+        text-align: center;
+        text-shadow: 0 0 2px black;
+    }
+    .first-hero-text > button{
+        display: block;
+        margin: 20px auto;
+    }
+    .first-hero-div-form{
+        margin: 0;
+        padding: 0 0 55px;
+    }
+    /* second hero */
+    .second-hero{
+        width: 100%;
+    }
+    .second-hero-text {
+        width: 100%;
+    }
+    .second-hero-text > p {
+        line-height: 25px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    /* third hero */
+    .third-hero-content{
+        width: 100%;
+    }
+    .third-hero-content > h3 {
+        width: 100%;
+        line-height: 40px;
+        color: #252B42;
+    }
+    .third-hero-content > p {
+        line-height: 25px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .third-hero-content > video{
+        width: 100%;
+    }
+    /* fourth hero */
+    .fourth-hero {
+        width: 100%;
+        margin: 100px auto;
+    }
+    .fourth-hero > h3 {
+        width: 100%;
+    }
+    .fourth-hero > p {
+        width: 90%;
+    }
+    .fourth-hero > div {
+        flex-direction: column;
+    }
+    .clients > .flex {
+        flex-direction: row;
+    }
+    /* fifth child */
+    .fifth-hero-content{
+        width: 100%;
+    }
+    .fifth-hero-content > h3{
+        width: 100%;
+    }
+    .fifth-hero-content > p{
+        line-height: 25px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    /* sixth hero */
+    .sixth-hero {
+        background-size: cover;
+        background-position: center;
+    }
+    .sixth-hero-content{
+        padding: 40px;
+        width: 100%;
+    }
+    .sixth-hero-form{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .sixth-hero-form > input,
+    .sixth-hero-form > select {
+        width: 100%;
+    }
+    .sixth-hero-form > textarea {
+        height: 120px;
+    }
+    .sixth-hero-form > button {
+        width: 100%;
+    }
+    /* footer */
+    footer > .flex {
+        width: 100%;
+        gap: 20px;
+    }
+    .info{
+        width: 100%;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info > ul{
+        width: 40%;
+    }
+
 }
