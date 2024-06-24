@@ -614,6 +614,9 @@ footer > .flex > p {
     .second-hero{
         width: 100%;
     }
+    .cards{
+        width: 100%;
+    }
     .second-hero-text {
         width: 100%;
     }
@@ -664,6 +667,9 @@ footer > .flex > p {
         width: 100%;
     }
     .fifth-hero-content > h3{
+        width: 100%;
+    }
+    .team > img{
         width: 100%;
     }
     .fifth-hero-content > p{
