@@ -1,2 +1,2 @@
-### CSS Proyect
+### One Page Proyect
 Live [Here](https://sprivaten-css.netlify.app/)
